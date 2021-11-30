@@ -35,7 +35,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet(u"QWidget{\n"
                                  "	color: white;\n"
-                                 "	background-color: #121212;\n"
+                                 "	background-color: #B8860B;\n"
                                  "	font-family: Rubik;\n"
                                  "	font-size: 16pt;\n"
                                  "	font-weight: 600;\n"
@@ -160,7 +160,7 @@ class Ui_MainWindow(object):
         self.btn_3.setObjectName(u"btn_3")
         sizePolicy1.setHeightForWidth(self.btn_3.sizePolicy().hasHeightForWidth())
         self.btn_3.setSizePolicy(sizePolicy1)
-        self.btn_3.setCursor(QCursor(Qt.OpenHandCursor))
+        self.btn_3.setCursor(QCursor(Qt.PointingHandCursor))
 
         self.layout_buttons.addWidget(self.btn_3, 4, 2, 1, 1)
 

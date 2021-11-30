@@ -1,0 +1,21 @@
+QWidget{
+	color: white;
+	background-color: #1212;
+	font-family: Rubik;
+	font-size: 16pt;
+	font-weight: 600;
+
+}
+
+QPushButton{
+    background-color: transparent;
+    border: none;
+    }
+                                 QPushButton:hover {\n"
+                                 background-color: #666;\
+                                 "}\n"
+                                 "\n"
+                                 "QPushButton:pressed {\n"
+                                 "	background-color: #888;\n"
+                                 "	\n"
+                                 "}")
