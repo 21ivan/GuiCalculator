@@ -1,8 +1,8 @@
 def fib():
-    n = int(input('Please input the number - '))
+    n = int(input('Please, input the number - '))
     a = 1
     b = 1
-    for count in range(0, n - 1):
+    for count in range(0, n):
         a, b = b, a + b
         print(b)
 
